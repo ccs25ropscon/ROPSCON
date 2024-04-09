@@ -186,7 +186,7 @@ impl DistributionPlan {
         base_config: NodeConfig,
     ) -> String {
         format!(
-            "{}-n{}-h{}-c{}-m{}-ts{}-bs{}-ir{}-lr{}crash",
+            "{}-n{}-h{}-c{}-m{}-ts{}-bs{}-ir{}-lr{}",
             base_config.get_consensus_type(),
             number,
             hosts_len,
