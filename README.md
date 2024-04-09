@@ -169,3 +169,5 @@ II. The node can pretend to be:
 1. A crash node ("--crash-nodes [number]" or "-c [number] or "crash-test"). A crash node will not respond to any incoming messages.
 
 2. A Byzantine node ("--malicious-nodes [number]" or "-m [number] or "malicious-test"). A Byzantine node will send wrong signature shares (votes) for any proposal to interfere with the consensus reaching. It should be noted that apart from the malicious behavior described above, Byzantine nodes will follow the normal consensus process, e.g. it will propose correctly as a non-faulty node.
+
+III.  Rust version used for compilation: rustc 1.67.0-nightly.
