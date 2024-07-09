@@ -83,7 +83,7 @@ Create a new localhost folder in the parent directory and generate relevant conf
  ```Bash
  bash run.sh 
 ```
-(View more specific logs, including the process of ABSE, by adding 'RUST_LOG=TRACE' to the process)
+(View more specific logs, by adding 'RUST_LOG=TRACE' to the process)
 
 
 ## Multi-host Config Generation
