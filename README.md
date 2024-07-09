@@ -38,7 +38,7 @@ You can also specify the number of crash replicas by using "crash-test -n [numbe
 cargo run -- malicious-test
 ```
 
-You can also specify the number of crash replicas by using "malicious-test -n [number]", which defaults to 1 (of 4).
+You can also specify the number of malicious replicas by using "malicious-test -n [number]", which defaults to 1 (of 4).
 
 #### Distributes locally
 
